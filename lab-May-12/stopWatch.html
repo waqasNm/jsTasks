@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>LabTask-05-May-Calculator</title>
+
+	<style type="text/css">
+	#view{
+		margin: 60px auto;
+		width: 460px;
+	}
+	#screen{
+		/*width: 460px;*/
+	    font-size: 70px;
+	    background-color: black;
+	    color: limegreen;
+	    padding: 25px;
+	    border-radius: 10px;
+	    font-family: monospace;   
+	}
+	button{
+		width: 100px;
+	    height: 40px;
+	    /*float: left;*/
+	    margin-top: 10px;
+	    margin-left: 36px;
+	    font-size: 25px;
+	    font-weight: bold;
+	    border-radius: 10px;
+	    box-shadow: 5px 5px 5px #888888;
+	}
+	#start{
+		background-color: limegreen;
+	}
+	#stop{
+		background-color: red;
+	}
+	#reset{
+		background-color: rebeccapurple;
+	}
+
+	</style>
+
+</head>
+<body>
+	
+
+	<div id="view">
+	<h1>STOP WATCH</h1>
+	<div id="screen">00:00:00:0000</div>
+
+	<button id="start" onclick="start()">Start</button>
+	<button id="stop" onclick="stop()">Stop</button>
+	<button id="reset" onclick="reset()">Reset</button>
+	</div>
+
+	
+</body>
+<script type="text/javascript" src="stopWatch.js"></script>
+</html>
