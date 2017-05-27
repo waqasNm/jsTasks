@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>LabTask-05-May-Calculator</title>
+
+	<style type="text/css">
+	#screen{
+		border-collapse: collapse;
+		margin: 0 auto;
+	}
+	#screen td,th{
+		border-bottom: 1px solid #000000;
+	}
+	fieldset{
+		width:300px;
+		border-radius: 5px;
+		margin: 0 auto;
+	}
+	</style>
+
+</head>
+<body>
+
+		<fieldset>
+			<legend>Bio Data</legend>
+		<table>
+			<tr>
+				<td>Name:</td>
+				<td><input type="text" id="name"></td>
+			</tr>
+			<tr>
+				<td>Email:</td>
+				<td><input type="text" id="email"></td>
+			</tr>
+			<tr>
+				<td>Age:</td>
+				<td><input type="text" id="age"></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td><button onclick="save('name','email','age')">Save</button></td>
+			</tr>
+		</table>
+		</fieldset>
+	
+	<table id="screen">
+		<tr>
+			<th>Name</th>
+			<th>Email</th>
+			<th>Age</th>
+		</tr>
+	</table>
+	
+</body>
+<script type="text/javascript" src="CRUD.js"></script>
+</html>
