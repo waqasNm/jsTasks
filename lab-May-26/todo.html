@@ -3,18 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <title>LabTask-26-May-TODO List</title>
+    <link rel="stylesheet" href="todo.css">
 </head>
 <body>
-    Task Name:
-    <input type="text" id="task"><br>
-    Task Date:
-    <input type="date" id="date"><br>
-    Task Time:
-    <input type="time" id="time"><br>
-    <button onclick="todo()" >Add</button>
 
-    <h2>TODO List</h2>
+    <div class="main">
+        <h2>My TODO List</h2>
+        <input type="text" id="task" placeholder="Title.." class="input-tab">
+        <span class="add-btn" onclick="todo()">Add</span> 
+        <!--<button onclick="todo()" >Add</button>-->
+    </div>
+    <!--<h2>TODO List</h2>-->
     <ul id="todo-list">
+        <li>Hit the gym</li>
+        <li class="">Pay bills</li>
+        <li>Meeting </li>
+        <li>Play Cricket</li>
     </ul>
     
 </body>
